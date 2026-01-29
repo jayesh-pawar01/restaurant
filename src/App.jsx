@@ -199,7 +199,7 @@ const App = () => {
             {/* Background Image */}
             <div
               className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-60 scale-105"
-              style={{ backgroundImage: 'url("/rain.jpeg")' }}
+              style={{ backgroundImage: `url(${import.meta.env.BASE_URL}rain.jpeg)` }}
             ></div>
 
             {/* Animated background glows */}
